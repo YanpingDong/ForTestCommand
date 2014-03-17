@@ -15,3 +15,5 @@ add something when stash my work
 git merge
 
 befor stash
+
+second stash
