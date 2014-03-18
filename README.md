@@ -22,4 +22,4 @@ git diff HEAD
 
 git diff HEAD again
 
-git commit --asfasf
+git commit --amend
