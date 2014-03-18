@@ -22,10 +22,4 @@ git diff HEAD
 
 git diff HEAD again
 
-<<<<<<< HEAD
-git commit --amend
-
-git stash
-=======
 git commit --amendabcd
->>>>>>> parent of 4b0069c... modified commit xxx
