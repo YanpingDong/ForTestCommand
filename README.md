@@ -30,3 +30,4 @@ git diff HEAD again
 
 git commit --amendabcd
 
+git diff HEAD again
