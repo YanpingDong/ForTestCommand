@@ -21,5 +21,3 @@ second stash
 git diff HEAD
 
 git diff HEAD again
-
-switch to mybranch
