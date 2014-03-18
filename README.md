@@ -24,6 +24,8 @@ git diff HEAD
 
 2
 
+3
+
 git diff HEAD again
 
 git commit --amendabcd
