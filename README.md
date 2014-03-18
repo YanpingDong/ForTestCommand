@@ -17,3 +17,7 @@ git merge
 befor stash
 
 second stash
+
+git diff HEAD
+
+git diff HEAD again
