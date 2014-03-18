@@ -21,3 +21,5 @@ second stash
 git diff HEAD
 
 git diff HEAD again
+
+git commit --asfasf
