@@ -1,1 +1,8 @@
+<<<<<<< HEAD
 »ù±¾Ãæ
+=======
+issue 1
+issue 2
+after git reset HEAD~3
+test reset`
+>>>>>>> parent of 35a227f... my revert
