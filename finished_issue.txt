@@ -1,3 +1,2 @@
 issue 1
 issue 2
-after git reset HEAD~3
