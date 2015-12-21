@@ -1,3 +1,6 @@
 issue 1
+<<<<<<< HEAD
 issue 2
 issue 3
+=======
+>>>>>>> parent of 4047fe8... add word issue 2 in finished_issue.txt
