@@ -1,8 +1,1 @@
-issue 1
-issue 2
-<<<<<<< HEAD
-after git reset HEAD~3
-test reset`
-=======
-issue 3
->>>>>>> parent of 8b7da61... afeter git reset HEAD~3
+»ù±¾Ãæ
