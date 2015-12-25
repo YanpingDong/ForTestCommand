@@ -1,1 +1,2 @@
 master
+fix some bug when developing new featue`
