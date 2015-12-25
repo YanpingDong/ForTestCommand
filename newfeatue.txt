@@ -1,5 +1,3 @@
 new feature
 other feature
 third feature
-fourth feature
-fifth feature
