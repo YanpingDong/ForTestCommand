@@ -2,3 +2,4 @@ master
 fix some bug when developing new featue`
 fix anothe bug when developing new featue
 fix third bug 
+make some super-statble changes to master
