@@ -1,0 +1,14 @@
+###############
+#    file     #
+###############
+*.class
+*.bak
+.classpath
+.project
+
+###############
+#    folder   #
+###############
+.settings/
+target/
+bin/
