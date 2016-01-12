@@ -1,0 +1,178 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.dyp.test</groupId>
+  <artifactId>parient</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>parient</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <repositories>
+	    <repository>  
+		    <id>maven-net-cn</id>  
+			<name>Maven China Mirror</name>  
+			<url>http://maven.net.cn/content/groups/public/</url>    
+			<snapshots>  
+				<enabled>false</enabled>  
+			</snapshots>  
+		</repository>  
+     
+        <repository>
+            <id>Codehaus repository</id>
+            <url>http://repository.codehaus.org/</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>apache.snapshots.repo</id>
+            <url>https://repository.apache.org/content/groups/snapshots</url>
+            <name>Apache Snapshots Repository</name>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>datanucleus</id>
+            <url>http://www.datanucleus.org/downloads/maven2</url>
+            <name>Datanucleus</name>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+		
+		<repository>
+			<id>springsource-repos</id>
+			<name>SpringSource Repository</name>
+			<url>http://repo.springsource.org/libs-milestone-local</url>
+			<snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+	    </repository>
+		<repository>
+			<id>JBoss repository</id>
+			<url>http://repository.jboss.org/nexus/content/groups/public/</url>
+        </repository>
+		<repository>
+			<id>activiti-repos2</id>
+			<name>Activiti Repository 2</name>
+			<url>https://app.camunda.com/nexus/content/groups/public</url>
+			<snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+		</repository>
+		<repository> 
+			<id>thinkgem-repos2</id> 
+			<name>ThinkGem Repository 2</name>
+			<url>https://raw.github.com/thinkgem/repository/master</url>
+			<snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+		</repository>
+		<repository>
+		  <id>bitwalker.user-agent-utils.mvn.repo</id>
+		  <url>https://raw.github.com/HaraldWalker/user-agent-utils/mvn-repo/</url>
+		  <!-- use snapshot version -->
+		  <snapshots>
+		     <enabled>false</enabled>
+		   </snapshots>
+		</repository>
+		<repository>  
+		   <id>mvnsearch</id>  
+           <name>mvnsearch Maven Repository</name>  
+           <url>http://www.mvnsearch.org/maven2</url>  
+        </repository>  
+        <repository>  
+           <id>ibiblio</id>  
+           <name>ibiblio Maven Repository</name>  
+           <url>http://www.ibiblio.org/maven2</url>  
+		</repository>  
+		<repository>  
+           <id>mirrors.ibiblio</id>  
+           <name>mirrors.ibiblio Maven Repository</name>  
+           <url>http://mirrors.ibiblio.org/pub/mirrors/maven2</url>  
+		</repository>  
+		<repository>  
+           <id>repo.springsource.org</id>  
+           <name>repo.springsource.org-releases</name>  
+           <url>http://repo.springsource.org/libs-milestone-local</url>  
+           <snapshots>  
+             <enabled>false</enabled>  
+           </snapshots>  
+		</repository>  
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>os china net</id>
+            <url>http://maven.oschina.net/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+        
+        <pluginRepository>
+            <id>repository.cloudera.com</id>
+            <name>repository.cloudera.com-releases</name>
+            <url>https://repository.cloudera.com/artifactory/ext-release-local</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>	
+    </pluginRepositories>
+<!-- <dependencyManagement>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  </dependencyManagement> -->
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <modules>
+  	<module>projectA</module>
+  	<module>projectB</module>
+  </modules>
+  
+  <build>
+    <plugins>
+       <plugin>
+        <groupId>org.apache.maven.plugins</groupId>  
+			<artifactId>maven-site-plugin</artifactId>  
+			<version>3.3</version>  
+			<configuration>  
+				<locales>zh_CN</locales>  
+			</configuration>  
+       </plugin>
+       
+	<plugin>  
+	     <groupId>maven</groupId>  
+	     <artifactId>maven-clover-plugin</artifactId>  
+	     <version>2.4.2</version>  
+	     <configuration>  
+	         <encoding>utf-8</encoding>  
+	     </configuration>  
+	</plugin>  
+
+       
+    </plugins>
+  </build>
+</project>
